@@ -7,14 +7,10 @@
   --mono-font: "JetBrains Mono", monospace;
   --transition-speed: 500ms;
 
-  /* Estimated heights for fixed header and footer */
-  /* Desktop values */
-  --header-height-desktop: 140px; /* Approx: 20px top offset + 60px logo + 1rem gap + 30-40px nav */
-  --footer-height-desktop: 120px; /* Approx: 1.5rem padding + social links + gap + legal + 1.5rem padding */
-
-  /* Mobile values (header can be taller due to stacking/full-width bg) */
-  --header-height-mobile: 192px; /* Approx: 2.5rem top padding + logo + 1.5rem bottom padding for better spacing */
-  --footer-height-mobile: 105px; /* Approx: 1rem padding + social links + gap + legal + 1rem padding */
+  --header-height-desktop: 140px;
+  --footer-height-desktop: 120px;
+  --header-height-mobile: 192px;
+  --footer-height-mobile: 105px;
 }
 
 * {
@@ -25,7 +21,6 @@
 
 html {
   scroll-behavior: smooth;
-  /* Removed explicit height and overflow from html to allow natural flow */
 }
 
 body {
@@ -103,7 +98,6 @@ main {
   padding: 0 1rem;
 }
 
-/* Hide hamburger menu on desktop */
 @media (min-width: 769px) {
   .hamburger-menu {
     display: none;
@@ -291,7 +285,7 @@ main {
   position: relative;
   text-align: center;
   z-index: 3;
-  padding: 1rem; /* Add some padding to hero content itself */
+  padding: 1rem;
 }
 
 /* --- Grunge Text Elements --- */
@@ -585,7 +579,6 @@ main {
 
 /* --- TOUR Section Specific Styles --- */
 #tour .section-content {
-  /* Styles removed to make it uniform with other sections */
 }
 
 .tour-info {
@@ -777,7 +770,7 @@ main {
 }
 
 #tour:focus {
-  outline: none; /* Remove focus outline since this is for functionality only */
+  outline: none;
 }
 
 /* Tour poster styles */
@@ -884,7 +877,7 @@ main {
   z-index: 2;
   width: 100%;
   /* Aesthetic internal padding for the content itself */
-  padding-top: 1rem; /* Reduced from original 10rem, as fixed element clearance is handled by .content-section */
+  padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
@@ -970,8 +963,6 @@ main {
 .music-link:hover i {
   transform: scale(1.1);
 }
-
-/* Removed old sectionFade animation - now using smooth CSS transitions */
 
 /* --- TOUR Section --- */
 .tour-event {
