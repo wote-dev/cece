@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="600" viewBox="0 0 400 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#333333;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  
+  <!-- Event Title -->
+  <text x="200" y="80" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="32" font-weight="bold">CECE NATALIE</text>
+  
+  <!-- Supporting Act -->
+  <text x="200" y="120" text-anchor="middle" fill="#cccccc" font-family="Arial, sans-serif" font-size="18">opening support for</text>
+  <text x="200" y="150" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="28" font-weight="bold">DAINE</text>
+  
+  <!-- Date -->
+  <text x="200" y="220" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="48" font-weight="bold">8/07</text>
+  
+  <!-- Venue -->
+  <text x="200" y="280" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Baby's All Right</text>
+  
+  <!-- Address -->
+  <text x="200" y="320" text-anchor="middle" fill="#cccccc" font-family="Arial, sans-serif" font-size="16">146 Broadway</text>
+  <text x="200" y="345" text-anchor="middle" fill="#cccccc" font-family="Arial, sans-serif" font-size="16">Brooklyn, NY</text>
+  
+  <!-- Ticket Info -->
+  <rect x="100" y="420" width="200" height="50" fill="#ff6b6b" rx="25"/>
+  <text x="200" y="450" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="bold">GET TICKETS</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="50" cy="500" r="20" fill="#ff6b6b" opacity="0.3"/>
+  <circle cx="350" cy="520" r="15" fill="#ffffff" opacity="0.2"/>
+  <circle cx="80" cy="550" r="10" fill="#cccccc" opacity="0.4"/>
+</svg>
